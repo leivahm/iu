@@ -187,6 +187,7 @@ section.landing .socials a{
     padding: 0.3rem;
     border-radius: 50%;
     height: 2rem;
+    width: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,8 +269,38 @@ section.landing .profile-area .outer-circle span:nth-child(4) {
 
 section.landing .profile-area .inner-circle {
 position: absolute;
-width: 20rem;
-height: 20rem;
+width: 21rem;
+height: 21rem;
 border-radius: 50%;
 overflow: hidden;
+}
+
+/* ================ ABOUT SECTION ================ */
+section.about {
+    background: var(--color-light);
+}
+
+section.about .container {
+    display: grid;
+    grid-template-columns: 26rem auto;
+    gap: 5rem;
+}
+
+section.about p {
+    margin-bottom: 1rem;
+}
+
+section.about .container .read-more-content {
+    display: none;
+}
+
+section.about  .container .read-more {
+    display: block;
+    margin: 1rem 0 2rem;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+section.about  .container .read-more:hover {
+    text-decoration: underline;
 }
