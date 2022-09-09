@@ -327,6 +327,10 @@ section.about  .container .read-more:hover {
 }
 
 /* ================ SKILLS SECTION ================ */
+section.skills {
+    display: none;
+}
+
 section.skills .container {
     width: 50%;
 }
