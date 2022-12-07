@@ -151,6 +151,7 @@ nav .container ul li a {
 
 nav .container ul li a:hover {
     color: var(--color-primary);
+    font-weight: bold;
 }
 
 nav .container ul li a.active {
