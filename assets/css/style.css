@@ -457,5 +457,5 @@ section.services .container .service:nth-child(3) span {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } /*CORREGIR EL JUSTIFY POR EL ???*/
 }
