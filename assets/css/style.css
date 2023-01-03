@@ -450,7 +450,7 @@ section.services .container .service:nth-child(3) span {
 }
 
 /*LO QUE SIGUE ABAJO ES PARA MODIFICAR Y VER LOS CAMBIOS 
-RESPONSIVE*/
+RESPONSIVE DEL SITIO*/
 /* whe screen's smaller than 512px */
 @media (max-width: 512px) {
     
