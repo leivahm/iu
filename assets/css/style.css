@@ -449,7 +449,8 @@ section.services .container .service:nth-child(3) span {
     background: var(--color-success);
 }
 
-/*LO QUE SIGUE ABAJO ES PARA MODIFICAR Y VER LOS CAMBIOS RESPONSIVE*/
+/*LO QUE SIGUE ABAJO ES PARA MODIFICAR Y VER LOS CAMBIOS 
+RESPONSIVE*/
 /* whe screen's smaller than 512px */
 @media (max-width: 512px) {
     
