@@ -18,8 +18,8 @@
     padding: 0;
     outline: 0;
     border: 0;
-    box-sizing: border-box;
-    list-style: none;
+    box-sizing: border-box; /*para que los elementos no se salgan del contenedor*/
+    list-style: none; /*para que no aparezcan los puntitos en las listas*/ 
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ img {
 
 /* ======= NAVBAR ======= */
 nav {
-    width: 100%;
+    width: 100%; /* ancho ocupa toda la pantalla*/
     height: 5rem;
     background: #29f5a6;
     display: flex;
@@ -117,6 +117,11 @@ nav {
     top: 0;
     z-index: 2;
     border-bottom: 1px solid var(--color-light);
+}
+
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
 }
 
 nav .container {
