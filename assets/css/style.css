@@ -204,7 +204,7 @@ section.landing {
 }
 
 section.landing .container {
-    background: #29f5a6;
+    /* background: #29f5a6; */
     display: grid;
     grid-template-columns: 5rem auto 26rem;
     gap: 2rem;
